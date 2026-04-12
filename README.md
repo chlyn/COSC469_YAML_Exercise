@@ -1,1 +1,1 @@
-# COSC480_YAML_Exercise
+# COSC469_YAML_Exercise
