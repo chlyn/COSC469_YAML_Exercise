@@ -1,1 +1,1 @@
-# COSC469_YAML_Exercise
+# COSC469: YAML Exercise
