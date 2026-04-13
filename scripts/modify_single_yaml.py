@@ -6,13 +6,13 @@ import yaml
 # yaml.dump() converts Python data into a single YAML document and writes it to the file
 # sort_keys=False keeps the keys in their original order (instead of sorting them alphabetically)
 def read_and_modify_one_block_of_yaml_data(filename, write_file, key, value):
-    with open(f"{filename}.yaml", "r") as f:
+    with open(f"outputs/{filename}.yaml", "r") as f:
         data = yaml.safe_load(f)
         
     data[key] = value
     print(data)
 
-    with open(f"{write_file}.yaml", "w") as file:
+    with open(f"outputs/{write_file}.yaml", "w") as file:
         yaml.dump(data, file, sort_keys=False)
 
     print("done!")
