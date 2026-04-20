@@ -7,6 +7,8 @@ This project demonstrates how to create, write, read, modify, and convert YAML d
 **Course:** COSC 469-101<br>
 **Instructor:** Dr. Appolo Tankeh
 
+<br>
+
 ---
 
 ## ⭐️ Features
@@ -89,7 +91,9 @@ Converts YAML data into JSON format.
 - Uses `yaml.safe_load()` to convert YAML → Python  
 - Uses `json.dump()` to convert Python → JSON  
 - Uses `indent=3` for better readability  
-- Output file: `output_convert_to_json.json` 
+- Output file: `output_convert_to_json.json`
+
+<br>
 
 ---
 
@@ -100,6 +104,8 @@ Run scripts from the project root directory:
 ```bash
 python3 scripts/<FILE_NAME>.py
 ```
+
+<br>
 
 ---
 
@@ -128,3 +134,7 @@ This project is connected between GitHub and GitLab using GitHub Actions. Every 
 13. Click `Add secret`
 14. Create the workflow file `.github/workflows/sync-to-gitlab.yml` and configure the sync process
 15. Push changes to the main branch to automatically sync GitHub to GitLab
+
+<br>
+
+---
