@@ -87,3 +87,5 @@ Run scripts from the project root directory:
 ```bash
 python3 scripts/<FILE_NAME>.py
 ```
+
+This is a test
